@@ -31,6 +31,7 @@ end
 def safely_load
   while true do
     STDERR.print `clear`
+    STDERR.puts ARGV.join(' ')
     STDERR.puts `date`
     STDERR.puts
     t0 = Time.now
