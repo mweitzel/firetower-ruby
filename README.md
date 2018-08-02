@@ -1,6 +1,6 @@
 # firetower ruby
 
-Run and re-run a ruby script without restarting the process. Plays well with [firetower](https://github.com/mweitzel/firetower) and [firetower editor hooks](https://github.com/mweitzel/firetower#editor-hooks).
+Run and re-run a ruby script without restarting the process. Plays well with [firetower](https://github.com/mweitzel/firetower) and [firetower editor hooks](https://github.com/mweitzel/firetower#editor-hooks), but neither are required.
 
 Especially useful when the REPL isn't enough, but the config or initialization overhead is high.
 
