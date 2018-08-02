@@ -30,5 +30,7 @@ Exit with `^C` (control-c)
 ```bash
 rails runner ~/bin/firetower.rb my-script.rb
 ```
+This will load the rails config, then load and run `my-script.rb`. _Unlike_ Zeus or Spring, _only_ the specified file will be reloaded.
 
-_Note that continually reloading a file in Ruby does not clear variables and functions which were previous defined in the file_
+### Keep in mind
+_Continually reloading a file in Ruby does not clear variables and functions which were previous defined in the file_
